@@ -1,0 +1,21 @@
+{
+    "name": "orick-dark-theme",
+    "displayName": "orick",
+    "description": "orick dark theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "orick",
+                "uiTheme": "vs-dark",
+                "path": "./themes/orick-color-theme.json"
+            }
+        ]
+    }
+}
